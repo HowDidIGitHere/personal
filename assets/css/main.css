@@ -1342,18 +1342,18 @@ input, select, textarea {
 				align-items: center;
 			}
 
-				#header .content .quick-links-container {
+				.quick-links-container {
 					width: 50%;
 				}
 
-					#header .content .inner .quick-links-container .quick-links {
+					.quick-links-container .quick-links {
 						display: flex;
 						align-items: center;
 						align-content: stretch;
 						justify-content: space-evenly;
 					}
 
-						#header .content .inner .quick-links-container .quick-links .link-button {
+						.quick-links-container .quick-links .link-button {
 							width: 40px;
 							height: 40px;
 							border: solid 1px white;
@@ -1364,17 +1364,17 @@ input, select, textarea {
 							justify-content: center;
 						}
 
-						#header .content .inner .quick-links-container .quick-links .link-button:hover {
+						.quick-links-container .quick-links .link-button:hover {
 							background-color: rgba(255, 255, 255, 0.075);
 							cursor: pointer;
 						}
 
-						#header .content .inner .quick-links-container .quick-links .link-button:active {
+						.quick-links-container .quick-links .link-button:active {
 							background-color: rgba(255, 255, 255, 0.175);
 							cursor: pointer;
 						}
 
-							#header .content .inner .quick-links-container .quick-links .link-button i {
+							.quick-links-container .quick-links .link-button i {
 								display: flex;
 								align-items: center;
 								justify-content: center;
@@ -1432,6 +1432,30 @@ input, select, textarea {
 					#header nav ul li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
 					}
+
+		.skill-list-container .skill-list {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			align-content: center;
+			list-style: none;
+		}
+
+			.skill-list-container .skill-list li {
+				padding-left: 0.5em;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
+				width: 200px;
+				height: 200px;
+			}
+
+		#main #skills {
+			width: 50rem;
+		}
 
 		#header nav.use-middle:after {
 			content: '';
