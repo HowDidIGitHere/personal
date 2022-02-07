@@ -1747,7 +1747,7 @@ input, select, textarea {
 		}
 
 	#javascript {
-    background-image: url(./personal/images/js.png);
+    background-image: url(./images/js.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1759,7 +1759,7 @@ input, select, textarea {
 	}
 
 	#ruby {
-    background-image: url(./personal/images/ruby.png);
+    background-image: url(./images/ruby.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1771,7 +1771,7 @@ input, select, textarea {
 	}
 
 	#python {
-    background-image: url(./personal/images/python.png);
+    background-image: url(./images/python.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1783,7 +1783,7 @@ input, select, textarea {
 	}
 
 	#html-5 {
-    background-image: url(./personal/images/html-5.png);
+    background-image: url(./images/html-5.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1795,7 +1795,7 @@ input, select, textarea {
 	}
 
 	#css-3 {
-    background-image: url(./personal/images/css.png);
+    background-image: url(./images/css.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1807,7 +1807,7 @@ input, select, textarea {
 	}
 
 	#react {
-    background-image: url(./personal/images/react.png);
+    background-image: url(./images/react.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1819,7 +1819,7 @@ input, select, textarea {
 	}
 
 	#redux {
-    background-image: url(./personal/images/redux.png);
+    background-image: url(./images/redux.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1831,7 +1831,7 @@ input, select, textarea {
 	}
 
 	#flask {
-    background-image: url(./personal/images/flask.png);
+    background-image: url(./images/flask.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1843,7 +1843,7 @@ input, select, textarea {
 	}
 
 	#mongoose {
-    background-image: url(./personal/images/mongoose.png);
+    background-image: url(./images/mongoose.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1855,7 +1855,7 @@ input, select, textarea {
 	}
 
 	#node {
-    background-image: url(./personal/images/node.png);
+    background-image: url(./images/node.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1867,7 +1867,7 @@ input, select, textarea {
 	}
 
 	#ruby-on-rails {
-    background-image: url(./personal/images/rails.png);
+    background-image: url(./images/rails.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1879,7 +1879,7 @@ input, select, textarea {
 	}
 
 	#git {
-    background-image: url(./personal/images/git.png);
+    background-image: url(./images/git.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1891,7 +1891,7 @@ input, select, textarea {
 	}
 
 	#postgresql {
-    background-image: url(./personal/images/postgresql.png);
+    background-image: url(./images/postgresql.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
@@ -1903,7 +1903,7 @@ input, select, textarea {
 	}
 
 	#mongodb {
-    background-image: url(./personal/images/mongodb.png);
+    background-image: url(./images/mongodb.png);
     background-size: contain;
     width: 100%;
     padding-top: 100%;
