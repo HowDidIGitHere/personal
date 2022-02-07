@@ -181,6 +181,7 @@ input, select, textarea {
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+    text-align: center;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1441,20 +1442,24 @@ input, select, textarea {
 			align-items: center;
 			align-content: center;
 			list-style: none;
+			padding-left: 0em;
 		}
 
 			.skill-list-container .skill-list li {
 				padding-left: 0.5em;
 				display: flex;
+				flex-direction: column;
 				align-items: center;
 				justify-content: center;
 				align-content: center;
-				width: 200px;
-				height: 200px;
+				/* width: 180px;
+				height: 220px; */
+				width: 140px;
+				height: 220px;
 			}
 
 		#main #skills {
-			width: 50rem;
+			width: 55rem;
 		}
 
 		#header nav.use-middle:after {
@@ -1740,3 +1745,171 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+	#javascript {
+    background-image: url(/images/js.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#ruby {
+    background-image: url(/images/ruby.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#python {
+    background-image: url(/images/python.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#html-5 {
+    background-image: url(/images/html-5.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#css-3 {
+    background-image: url(/images/css.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#react {
+    background-image: url(/images/react.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#redux {
+    background-image: url(/images/redux.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#flask {
+    background-image: url(/images/flask.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#mongoose {
+    background-image: url(/images/mongoose.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#node {
+    background-image: url(/images/node.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#ruby-on-rails {
+    background-image: url(/images/rails.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#git {
+    background-image: url(/images/git.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#postgresql {
+    background-image: url(/images/postgresql.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
+
+	#mongodb {
+    background-image: url(/images/mongodb.png);
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 12px solid transparent;
+    box-sizing: border-box;
+	}
