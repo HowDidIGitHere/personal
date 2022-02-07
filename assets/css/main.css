@@ -1344,7 +1344,7 @@ input, select, textarea {
 			}
 
 				.quick-links-container {
-					width: 50%;
+					width: 60%;
 				}
 
 					.quick-links-container .quick-links {
@@ -1448,9 +1448,13 @@ input, select, textarea {
 			padding-left: 0;
 		}
 
+			.projects-list-container .projects-list li {
+				padding-right: 0;
+			}
+
 			.projects-list-container .projects-list li .project-wrapper {
 				width: 100%;
-				padding-right: 0.5rem;
+				/* padding-right: 0.5rem; */
 				display: flex;
 				flex-direction: column;
 				align-items: center;
@@ -1459,24 +1463,59 @@ input, select, textarea {
 			}
 
 				.projects-list-container .projects-list li .project-wrapper .project-info {
-					position: fixed;
+					background-color: rgba(27, 31, 34, 0.65);
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					left: 5%;
+					right: 5%;
+					bottom: 0;
+					text-align: center;
+					z-index: 3;
+					transition: all ease-in-out 0.3s;
 					display: flex;
 					flex-direction: column;
+					justify-content: center;
 					align-items: center;
+				}
+
+				#pe {
+					color: #ff4400;
+				}
+
+				#co {
+					color: #20b2aa;
+				}
+
+				#dh {
+					color: pink;
 				}
 
 					.projects-list-container .projects-list li .project-wrapper .project-info .project-links {
 						display: flex;
 					}
 
+					.projects-list-container .projects-list li .project-wrapper .project-info .project-links a {
+						border: 0;
+					}
+					
 						.projects-list-container .projects-list li .project-wrapper .project-info .project-links a h2 {
-							border: 0;
 							cursor: pointer;
 						}
 
 						.projects-list-container .projects-list li .project-wrapper .project-info .project-links a h2:hover {
-							color: aqua;
+							color: gold;
 						}
+
+						.projects-list-container .projects-list li .project-wrapper .project-info .project-links .divider {
+							margin: 0 0.5rem;
+							line-height: 28px;
+						}
+
+
+				.projects-list-container .projects-list li .project-wrapper .project-info:hover {
+					opacity: 1;
+				}
 
 				.projects-list-container .projects-list li .project-wrapper .project-img {
 					width: 90%;
