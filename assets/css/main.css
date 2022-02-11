@@ -1291,12 +1291,15 @@ input, select, textarea {
 				display: none;
 			}
 
-
 		.paragraph {
 			text-transform: none;
 			text-align: left;
 			font-weight: normal;
 			font-size: 1rem;
+		}
+
+		.bold {
+			font-weight: bold;
 		}
 
 		#header .logo {
